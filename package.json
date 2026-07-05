@@ -1,0 +1,19 @@
+{
+  "name": "government-roleplay-service",
+  "version": "6.0.0",
+  "description": "Trục liên thông tối cao ma trận quốc vụ số đa nhiệm v6.0 - Khắc phục lõi xử lý hồ sơ, bổ sung Tuệ Đức AI Engine, vá route thiếu, chuẩn hóa triển khai máy chủ thật (Render/Railway/Glitch).",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.7.5"
+  }
+}
