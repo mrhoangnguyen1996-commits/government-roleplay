@@ -1,0 +1,19 @@
+{
+  "name": "government-roleplay-service",
+  "version": "7.0.0",
+  "description": "Trục liên thông tối cao ma trận quốc vụ số đa nhiệm v7.0 - Phân quyền server-side thật sự, Điều Phối Khẩn Cấp SOS thời gian thực, Bảng Trực Tuyến đa nhiệm, Bảng Xếp Hạng Tín Nhiệm, âm thanh mở rộng, và Tuệ Đức AI Engine 2 tầng.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.7.5"
+  }
+}
