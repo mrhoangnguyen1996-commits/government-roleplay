@@ -1,0 +1,14 @@
+{
+  "name": "government-roleplay-service",
+  "version": "10.0.0",
+  "description": "Trục liên thông tối cao ma trận quốc vụ số đa nhiệm v10.0 - Quy trình xử lý hồ sơ chuẩn hoá 6 bước, checklist tiếp nhận bắt buộc, khiếu nại leo thang 2 cấp, phôi điện tử đa trường thông tin với logo dập nổi 3D, và Tuệ Đức AI Engine nhận diện linh hoạt thủ tục.",
+  "main": "server.js",
+  "engines": { "node": ">=18.0.0" },
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.7.5"
+  }
+}
