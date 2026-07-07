@@ -1,0 +1,14 @@
+{
+  "name": "government-roleplay-service",
+  "version": "12.0.0",
+  "description": "Trục liên thông tối cao ma trận quốc vụ số đa nhiệm v12.0 - Ngân Hàng Số: biểu mẫu xin cấp tài khoản + phê duyệt, lãi suất tiết kiệm định kỳ, tự động truy thu trả góp vay vốn, sao kê thiết kế chuyên nghiệp, bot AI tích hợp kiểm tra số dư an toàn.",
+  "main": "server.js",
+  "engines": { "node": ">=18.0.0" },
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "socket.io": "^4.7.5"
+  }
+}
